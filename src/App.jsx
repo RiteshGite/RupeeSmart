@@ -1,14 +1,35 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
-import Navbar from './components/Navbar';
-import Landing from './pages/Landing';
-import Learn from './pages/Learn';
-import Quiz from './pages/Quiz';
-import Simulator from './pages/Simulator';
-import Result from './pages/Result';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+import { useEffect } from "react";
+
+import Navbar from "./components/Navbar";
+import Landing from "./pages/Landing";
+import Learn from "./pages/Learn";
+import Quiz from "./pages/Quiz";
+import Simulator from "./pages/Simulator";
+import Result from "./pages/Result";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // remove if you want instant scroll
+    });
+  }, [pathname]);
+
+  return null;
+}
 
 function AnimatedRoutes() {
   const location = useLocation();
+
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
@@ -25,6 +46,8 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
+
       <div className="min-h-screen bg-bg text-white">
         <Navbar />
         <AnimatedRoutes />
