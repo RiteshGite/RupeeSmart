@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "term": "SIP",
+    "fullForm": "Systematic Investment Plan",
+    "emoji": "📈",
+    "category": "Investing",
+    "explanation": "Invest a fixed amount every month in mutual funds automatically.",
+    "example": "₹500/month for 10 years at 12% return = ₹1.16 Lakhs!"
+  },
+  {
+    "id": 2,
+    "term": "FD",
+    "fullForm": "Fixed Deposit",
+    "emoji": "🏦",
+    "category": "Saving",
+    "explanation": "Lock your money with a bank for a fixed time at guaranteed interest.",
+    "example": "₹50,000 FD at 6.5% for 1 year = ₹53,250 guaranteed."
+  },
+  {
+    "id": 3,
+    "term": "Emergency Fund",
+    "fullForm": "Emergency Fund",
+    "emoji": "🛡️",
+    "category": "Saving",
+    "explanation": "3-6 months of expenses saved separately for unexpected situations.",
+    "example": "Monthly expenses ₹15,000 → Keep ₹45,000-90,000 in savings."
+  },
+  {
+    "id": 4,
+    "term": "Compound Interest",
+    "fullForm": "Compound Interest",
+    "emoji": "🔁",
+    "category": "Basics",
+    "explanation": "You earn interest on your interest too — money grows exponentially!",
+    "example": "₹10,000 at 10% compounded yearly → ₹25,937 in 10 years."
+  },
+  {
+    "id": 5,
+    "term": "Inflation",
+    "fullForm": "Inflation",
+    "emoji": "📉",
+    "category": "Basics",
+    "explanation": "Prices rise over time, so ₹100 today buys less in the future.",
+    "example": "₹100 of groceries in 2014 costs ~₹180 in 2024 (6% inflation)."
+  },
+  {
+    "id": 6,
+    "term": "50-30-20 Rule",
+    "fullForm": "Budgeting Rule",
+    "emoji": "🥧",
+    "category": "Basics",
+    "explanation": "50% for needs, 30% for wants, 20% for savings/investments.",
+    "example": "Salary ₹25,000 → Needs ₹12,500 | Wants ₹7,500 | Save ₹5,000"
+  },
+  {
+    "id": 7,
+    "term": "Mutual Fund",
+    "fullForm": "Mutual Fund",
+    "emoji": "🧺",
+    "category": "Investing",
+    "explanation": "Pool your money with others. Expert fund managers invest it in stocks/bonds.",
+    "example": "₹1,000 invested in a fund that holds 50 stocks → instant diversification!"
+  },
+  {
+    "id": 8,
+    "term": "Credit Score",
+    "fullForm": "CIBIL Score",
+    "emoji": "⭐",
+    "category": "Debt",
+    "explanation": "A score (300-900) that shows banks how trustworthy you are with loans.",
+    "example": "Score 750+ = low interest loans. Score below 600 = loan rejection."
+  },
+  {
+    "id": 9,
+    "term": "Credit Card Interest",
+    "fullForm": "Revolving Credit",
+    "emoji": "💳",
+    "category": "Debt",
+    "explanation": "If you don't pay full amount, banks charge 36-42% annual interest!",
+    "example": "₹10,000 unpaid for 1 year → you owe ₹13,600-14,200!"
+  },
+  {
+    "id": 10,
+    "term": "PPF",
+    "fullForm": "Public Provident Fund",
+    "emoji": "🏛️",
+    "category": "Saving",
+    "explanation": "Government-backed 15-year savings scheme. Tax-free returns!",
+    "example": "₹1,000/month for 15 years at 7.1% = ₹3.17 Lakhs tax-free!"
+  },
+  {
+    "id": 11,
+    "term": "Term Insurance",
+    "fullForm": "Term Life Insurance",
+    "emoji": "🔒",
+    "category": "Basics",
+    "explanation": "Pay small premium yearly, family gets large amount if you pass away.",
+    "example": "₹500/month premium → ₹50 Lakh cover for your family."
+  },
+  {
+    "id": 12,
+    "term": "Stock Market",
+    "fullForm": "Equity Market",
+    "emoji": "📊",
+    "category": "Investing",
+    "explanation": "Buy small ownership (shares) in companies. Profit if company grows.",
+    "example": "₹1,000 in Infosys in 2010 → worth ~₹15,000 today!"
+  }
+]

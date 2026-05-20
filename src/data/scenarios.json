@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Pehli Salary! 🎉",
+    "description": "Teri pehli salary aayi! ₹25,000 haath mein hai. Sab celebrate karna chahte hain. Kya karega?",
+    "choices": [
+      {
+        "text": "₹2,000 SIP shuru karo, baaki spend karo",
+        "emoji": "📈",
+        "impact": { "savings": 10, "debt": 0, "happiness": 5, "future": 15 },
+        "feedback": "Smart move! SIP early shuru karna best financial decision hai."
+      },
+      {
+        "text": "Dosto ke saath Goa trip book karo",
+        "emoji": "🏖️",
+        "impact": { "savings": -20, "debt": 5, "happiness": 20, "future": -10 },
+        "feedback": "Memories banaye, but savings miss kar diye!"
+      },
+      {
+        "text": "Poora FD mein daal do",
+        "emoji": "🏦",
+        "impact": { "savings": 25, "debt": 0, "happiness": -5, "future": 10 },
+        "feedback": "Safe choice! But thoda enjoy bhi karo yaar."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Medical Emergency! 🏥",
+    "description": "Ghar mein kisi ko hospital admit karna pada. ₹20,000 ka bill aa gaya. Kya karega?",
+    "choices": [
+      {
+        "text": "Emergency fund use karo",
+        "emoji": "🛡️",
+        "impact": { "savings": -15, "debt": 0, "happiness": 0, "future": 20 },
+        "feedback": "Emergency fund isi liye hota hai! Great planning."
+      },
+      {
+        "text": "Credit card swipe karo",
+        "emoji": "💳",
+        "impact": { "savings": 0, "debt": -25, "happiness": -5, "future": -15 },
+        "feedback": "Credit card pe 36% interest lagega. Avoid karo!"
+      },
+      {
+        "text": "Personal loan lo",
+        "emoji": "🏦",
+        "impact": { "savings": 0, "debt": -15, "happiness": -10, "future": -5 },
+        "feedback": "Loan ek option hai, but emergency fund hona chahiye tha."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Phone Kharab Ho Gaya 📱",
+    "description": "Tera phone kharab ho gaya. Naya phone lena hai (₹15,000 naya, ₹6,000 second-hand).",
+    "choices": [
+      {
+        "text": "Second-hand refurbished lo",
+        "emoji": "♻️",
+        "impact": { "savings": -5, "debt": 0, "happiness": 3, "future": 15 },
+        "feedback": "Smart! Same kaam, kam paisa. Future score badha!"
+      },
+      {
+        "text": "Brand new EMI pe lo",
+        "emoji": "📦",
+        "impact": { "savings": 0, "debt": -10, "happiness": 10, "future": -5 },
+        "feedback": "EMI ek trap hai — zero cost EMI mein bhi hidden charges hote hain."
+      },
+      {
+        "text": "Savings se naya lo",
+        "emoji": "💰",
+        "impact": { "savings": -15, "debt": 0, "happiness": 10, "future": 5 },
+        "feedback": "Debt se bacha, good! Par savings thodi zyada gayi."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Dost Ka Birthday 🍽️",
+    "description": "Dost ka birthday hai. Restaurant mein sab expect kar rahe hain ke tu treat dega. Bill ₹3,000 aaya.",
+    "choices": [
+      {
+        "text": "Full treat de — YOLO!",
+        "emoji": "🎂",
+        "impact": { "savings": -8, "debt": 0, "happiness": 15, "future": -5 },
+        "feedback": "Generous ho! But budget mein rehna seekho."
+      },
+      {
+        "text": "Split karo — sabka sabka",
+        "emoji": "🤝",
+        "impact": { "savings": -3, "debt": 0, "happiness": 8, "future": 10 },
+        "feedback": "Fair and smart! Good friends always split."
+      },
+      {
+        "text": "Ghar mein potluck party karo",
+        "emoji": "🏠",
+        "impact": { "savings": -1, "debt": 0, "happiness": 12, "future": 15 },
+        "feedback": "Creative aur budget-friendly! Best choice!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Salary Raise Mili! 💼",
+    "description": "Boss ne ₹5,000 raise diya! Ab salary ₹30,000 hai. Kya karega iss extra paison ka?",
+    "choices": [
+      {
+        "text": "SIP amount badha do ₹2,000 se ₹4,000",
+        "emoji": "📈",
+        "impact": { "savings": 20, "debt": 0, "happiness": 5, "future": 25 },
+        "feedback": "Lifestyle inflation se bacha! Savings badhaai — genius move!"
+      },
+      {
+        "text": "Better apartment mein shift ho jao",
+        "emoji": "🏠",
+        "impact": { "savings": -10, "debt": 0, "happiness": 15, "future": -10 },
+        "feedback": "Lifestyle inflation! Expenses bhi utni hi badhti hain."
+      },
+      {
+        "text": "Stock market mein try karo",
+        "emoji": "📊",
+        "impact": { "savings": 5, "debt": 0, "happiness": 10, "future": 15 },
+        "feedback": "Investing good hai, but research zaroor karo pehle!"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Market Crash! 📉",
+    "description": "Sensex 20% giraa! Tune mutual funds mein ₹30,000 invest kiye hain. Kya karega?",
+    "choices": [
+      {
+        "text": "Ruko aur invest karte raho (SIP continue)",
+        "emoji": "⏳",
+        "impact": { "savings": 0, "debt": 0, "happiness": -5, "future": 25 },
+        "feedback": "Sahi! Market corrections mein ghabhrana nahi chahiye. Long term sochte raho."
+      },
+      {
+        "text": "Sab sell karo — loss mat karo!",
+        "emoji": "😱",
+        "impact": { "savings": -10, "debt": 0, "happiness": -10, "future": -20 },
+        "feedback": "Galat! Panic selling sabse bada investing mistake hai."
+      },
+      {
+        "text": "Aur paisa daal do — discount mein khariddo",
+        "emoji": "🛒",
+        "impact": { "savings": -5, "debt": 0, "happiness": 0, "future": 30 },
+        "feedback": "Warren Buffett strategy! 'Buy when others are fearful.' Smart!"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Ghar Lena Hai? 🏡",
+    "description": "Parents bol rahe hain ghar lo. ₹40 Lakh flat ka 20% down payment = ₹8 Lakh chahiye.",
+    "choices": [
+      {
+        "text": "3-4 saal aur ruko, save karo",
+        "emoji": "⏰",
+        "impact": { "savings": 15, "debt": 0, "happiness": -5, "future": 20 },
+        "feedback": "Patient planning! Down payment zyada hoga toh EMI kam hogi."
+      },
+      {
+        "text": "Abhi hi lo — 90% home loan pe",
+        "emoji": "🏦",
+        "impact": { "savings": -5, "debt": -30, "happiness": 15, "future": -15 },
+        "feedback": "High loan = high EMI burden for 20 years. Think carefully!"
+      },
+      {
+        "text": "Rent pe rehna continue karo",
+        "emoji": "🏠",
+        "impact": { "savings": 10, "debt": 0, "happiness": 5, "future": 10 },
+        "feedback": "Renting is not wasted money — flexibility and savings matter too!"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Retirement Planning 👴",
+    "description": "Tu 25 saal ka hai. Retirement 60 pe — 35 saal hain. Abhi sochna chahiye?",
+    "choices": [
+      {
+        "text": "Haan! PPF/NPS shuru karo abhi se",
+        "emoji": "🔒",
+        "impact": { "savings": 10, "debt": 0, "happiness": 0, "future": 30 },
+        "feedback": "Compound interest ka jaadu! 35 saal mein ₹1,000/month → ₹1+ Crore!"
+      },
+      {
+        "text": "30 ke baad sochenge — abhi enjoy karo",
+        "emoji": "🎉",
+        "impact": { "savings": 0, "debt": 0, "happiness": 15, "future": -20 },
+        "feedback": "5 saal delay = decades of compound interest lost. Start NOW!"
+      },
+      {
+        "text": "Real estate mein invest karo",
+        "emoji": "🏗️",
+        "impact": { "savings": -5, "debt": -10, "happiness": 5, "future": 15 },
+        "feedback": "Real estate is illiquid. Diversification better hai!"
+      }
+    ]
+  }
+]

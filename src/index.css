@@ -1,0 +1,416 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+/* ===================== CSS Variables ===================== */
+:root {
+  --color-primary:    #00C48C;
+  --color-accent:     #F7B731;
+  --color-danger:     #FF6B6B;
+  --color-bg:         #0F0F1A;
+  --color-surface:    #1E1E30;
+  --color-text-sec:   #A0A0B8;
+  --color-border:     rgba(255,255,255,0.08);
+}
+
+/* ===================== Reset ===================== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--color-bg);
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===================== Typography helpers ===================== */
+.font-sora       { font-family: 'Sora', sans-serif; }
+.font-display    { font-family: 'Sora', sans-serif; }
+.font-mono-nums  { font-family: 'JetBrains Mono', monospace; }
+
+/* ===================== Colour utilities used inline ===================== */
+.text-primary        { color: var(--color-primary) !important; }
+.text-accent         { color: var(--color-accent)  !important; }
+.text-danger         { color: var(--color-danger)  !important; }
+.text-text-secondary { color: var(--color-text-sec) !important; }
+.bg-primary          { background-color: var(--color-primary) !important; }
+.bg-surface          { background-color: var(--color-surface) !important; }
+.text-bg             { color: var(--color-bg) !important; }
+
+/* opacity variants */
+.bg-primary\/10  { background-color: rgba(0,196,140,0.10) !important; }
+.bg-primary\/15  { background-color: rgba(0,196,140,0.15) !important; }
+.bg-primary\/20  { background-color: rgba(0,196,140,0.20) !important; }
+.border-primary  { border-color: var(--color-primary) !important; }
+.border-primary\/20 { border-color: rgba(0,196,140,0.20) !important; }
+.border-primary\/30 { border-color: rgba(0,196,140,0.30) !important; }
+.border-accent\/40  { border-color: rgba(247,183,49,0.40) !important; }
+.bg-accent\/10   { background-color: rgba(247,183,49,0.10) !important; }
+
+/* ===================== Glass ===================== */
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.glass-strong {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.glass-card {
+  background: rgba(30,30,48,0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ===================== Glow ===================== */
+.glow-green         { box-shadow: 0 0 20px rgba(0,196,140,0.15); }
+.glow-green-hover:hover { box-shadow: 0 0 30px rgba(0,196,140,0.35); transition: box-shadow 0.3s ease; }
+.glow-gold          { box-shadow: 0 0 20px rgba(247,183,49,0.2); }
+.text-glow          { text-shadow: 0 0 20px rgba(0,196,140,0.5); }
+
+/* ===================== Gradient text ===================== */
+.gradient-text {
+  background: linear-gradient(135deg, #00C48C, #00E5A6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-gold {
+  background: linear-gradient(135deg, #F7B731, #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ===================== Buttons ===================== */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  background: linear-gradient(135deg, #00C48C, #00A876);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(0,196,140,0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0,196,140,0.5);
+}
+.btn-primary:active { transform: translateY(0); }
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  text-decoration: none;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #fff;
+  transition: all 0.25s ease;
+}
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(0,196,140,0.4);
+  transform: translateY(-2px);
+}
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  background: linear-gradient(135deg, #F7B731, #E09A15);
+  color: #0F0F1A;
+  box-shadow: 0 4px 20px rgba(247,183,49,0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(247,183,49,0.5);
+}
+
+/* ===================== Cards ===================== */
+.card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background: #1E1E30;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  border-color: rgba(0,196,140,0.2);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 20px rgba(0,196,140,0.05);
+  transform: translateY(-4px);
+}
+
+/* ===================== Flip Card — FIXED ===================== */
+/*
+  Root problem: backface-visibility must be hidden on BOTH faces,
+  and the parent (.flip-card) needs perspective set directly (not just on .flip-card).
+  The .flip-card-inner rotates; faces are absolutely stacked.
+  Height must be explicit on every layer.
+*/
+
+.flip-card {
+  perspective: 1200px;
+  cursor: pointer;
+  /* height set inline or via Tailwind h-64 */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  /* NOT flipped by default */
+}
+
+/* ✅ This is the crucial rule — toggling .flipped on .flip-card-inner */
+.flip-card-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  inset: 0;                          /* top/right/bottom/left: 0 */
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Back face starts rotated 180deg — so it's hidden initially */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Hover lift when NOT flipped */
+.flip-card:hover .flip-card-inner:not(.flipped) {
+  transform: translateY(-4px) rotateY(0deg);
+  filter: brightness(1.05);
+}
+
+/* ===================== Progress Bar ===================== */
+.progress-bar {
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #00C48C, #00E5A6);
+  transition: width 1s ease-out;
+}
+
+/* ===================== Floating Particles ===================== */
+.particles-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+.particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(0,196,140,0.4);
+  animation: floatParticle linear infinite;
+}
+
+@keyframes floatParticle {
+  0%   { transform: translateY(100vh) scale(0) rotate(0deg); opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 0.3; }
+  100% { transform: translateY(-10vh) scale(1) rotate(360deg); opacity: 0; }
+}
+
+/* ===================== Stat bars ===================== */
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===================== Score Ring ===================== */
+.score-ring-track    { fill: none; stroke: rgba(255,255,255,0.08); stroke-width: 10; }
+.score-ring-progress {
+  fill: none; stroke-width: 10; stroke-linecap: round;
+  transform-origin: center; transform: rotate(-90deg);
+  transition: stroke-dashoffset 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===================== Badges ===================== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.badge-investing { background: rgba(0,196,140,0.15); color: #00C48C; border: 1px solid rgba(0,196,140,0.3); }
+.badge-saving    { background: rgba(59,130,246,0.15); color: #60a5fa; border: 1px solid rgba(59,130,246,0.3); }
+.badge-basics    { background: rgba(247,183,49,0.15); color: #F7B731; border: 1px solid rgba(247,183,49,0.3); }
+.badge-debt      { background: rgba(255,107,107,0.15); color: #FF6B6B; border: 1px solid rgba(255,107,107,0.3); }
+
+/* ===================== Quiz options ===================== */
+.quiz-option {
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  color: #fff;
+}
+.quiz-option:hover:not(.correct):not(.wrong):not(.disabled) {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(0,196,140,0.4);
+  transform: translateX(4px);
+}
+.quiz-option.correct  { background: rgba(0,196,140,0.15); border-color: #00C48C; box-shadow: 0 0 15px rgba(0,196,140,0.2); }
+.quiz-option.wrong    { background: rgba(255,107,107,0.15); border-color: #FF6B6B; box-shadow: 0 0 15px rgba(255,107,107,0.2); }
+.quiz-option.disabled { cursor: not-allowed; opacity: 0.55; }
+
+/* ===================== Scrollbar ===================== */
+::-webkit-scrollbar       { width: 5px; }
+::-webkit-scrollbar-track { background: #1E1E30; }
+::-webkit-scrollbar-thumb { background: rgba(0,196,140,0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,196,140,0.6); }
+
+/* ===================== Animations ===================== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(0,196,140,0.4); }
+  50%       { box-shadow: 0 0 0 8px rgba(0,196,140,0); }
+}
+
+.animate-fade-in-up { animation: fadeInUp 0.6s ease-out forwards; }
+.animate-pulse { animation: pulse-green 2s infinite; }
+
+/* ===================== Nav ===================== */
+.nav-link-active {
+  color: var(--color-primary) !important;
+  position: relative;
+}
+.nav-link-active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0; right: 0;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: 1px;
+}
+
+/* ===================== Mobile Drawer ===================== */
+.mobile-drawer {
+  position: fixed;
+  top: 0; right: 0;
+  height: 100vh;
+  width: 280px;
+  background: #1A1A2E;
+  border-left: 1px solid rgba(255,255,255,0.08);
+  z-index: 100;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+.mobile-drawer.open { transform: translateX(0); }
+
+/* ===================== Scenario choice cards ===================== */
+.choice-card {
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.25s ease;
+  width: 100%;
+}
+.choice-card:hover:not(:disabled) {
+  background: rgba(0,196,140,0.08);
+  border-color: rgba(0,196,140,0.4);
+  transform: translateX(4px);
+  box-shadow: 0 4px 20px rgba(0,196,140,0.1);
+}
+.choice-card.selected {
+  background: rgba(0,196,140,0.12);
+  border-color: #00C48C;
+  box-shadow: 0 0 20px rgba(0,196,140,0.15);
+}
+.choice-card:disabled { cursor: not-allowed; }
+
+/* ===================== Timer ===================== */
+.timer-svg { display: block; overflow: visible; }
+.timer-circle { transform: rotate(-90deg); transform-origin: 50% 50%; }
+
+/* ===================== Feature card hover ===================== */
+.feature-card-hover {
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 30px rgba(0,196,140,0.08);
+}
+
+/* ===================== Concept card hover (non-flipped) ===================== */
+.flip-card:not(.is-flipped):hover {
+  filter: drop-shadow(0 0 18px rgba(0,196,140,0.18));
+}
+
+/* ===================== Responsive helpers ===================== */
+@media (max-width: 640px) {
+  .flip-card { min-height: 260px; }
+  .btn-primary, .btn-secondary, .btn-gold { width: 100%; justify-content: center; }
+}

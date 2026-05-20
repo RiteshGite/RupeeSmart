@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "level": "beginner",
+    "question": "SIP ka full form kya hai?",
+    "options": ["Systematic Investment Plan", "Simple Interest Plan", "Savings Investment Program", "Stock Investment Plan"],
+    "correct": 0,
+    "explanation": "SIP stands for Systematic Investment Plan — you invest a fixed amount monthly in mutual funds."
+  },
+  {
+    "id": 2,
+    "level": "beginner",
+    "question": "Emergency fund mein kitne months ke expenses hone chahiye?",
+    "options": ["1 month", "3-6 months", "12 months", "2 months"],
+    "correct": 1,
+    "explanation": "Experts recommend keeping 3-6 months of expenses in an easily accessible emergency fund."
+  },
+  {
+    "id": 3,
+    "level": "beginner",
+    "question": "50-30-20 rule mein '20' kise represent karta hai?",
+    "options": ["Needs", "Wants", "Savings/Investments", "Entertainment"],
+    "correct": 2,
+    "explanation": "20% of income should go towards savings and investments for your future."
+  },
+  {
+    "id": 4,
+    "level": "beginner",
+    "question": "FD (Fixed Deposit) mein kya guaranteed hota hai?",
+    "options": ["High returns", "Interest rate", "Stock growth", "Tax savings"],
+    "correct": 1,
+    "explanation": "FD guarantees a fixed interest rate for the entire tenure — no market risk!"
+  },
+  {
+    "id": 5,
+    "level": "beginner",
+    "question": "Inflation ka matlab kya hai?",
+    "options": ["Prices go down", "Prices go up over time", "Stocks increase", "Money multiplies"],
+    "correct": 1,
+    "explanation": "Inflation means the general price level rises over time, reducing purchasing power of money."
+  },
+  {
+    "id": 6,
+    "level": "beginner",
+    "question": "CIBIL score ka range kya hai?",
+    "options": ["0-100", "100-500", "300-900", "500-1000"],
+    "correct": 2,
+    "explanation": "CIBIL score ranges from 300 to 900. Higher score means better creditworthiness and loan eligibility."
+  },
+  {
+    "id": 7,
+    "level": "beginner",
+    "question": "PPF ka full form kya hai?",
+    "options": ["Public Provident Fund", "Private Pension Fund", "Personal Profit Fund", "Permanent Pension Facility"],
+    "correct": 0,
+    "explanation": "PPF stands for Public Provident Fund — a government-backed long-term savings scheme with tax-free returns."
+  },
+  {
+    "id": 8,
+    "level": "beginner",
+    "question": "Mutual Fund mein kya hota hai?",
+    "options": ["Aap akele invest karte ho", "Kai logon ka paisa milakar invest hota hai", "Sirf government bonds mein jaata hai", "Guaranteed returns milte hain"],
+    "correct": 1,
+    "explanation": "Mutual funds pool money from many investors and invest it in stocks, bonds, etc. managed by experts."
+  },
+  {
+    "id": 9,
+    "level": "beginner",
+    "question": "Credit card ka bill agar poora na bharo toh kya hoga?",
+    "options": ["Kuch nahi hoga", "High interest (36-42%) lagega", "Credit score badhega", "Bank call karega"],
+    "correct": 1,
+    "explanation": "Unpaid credit card balances attract 36-42% annual interest — one of the most expensive forms of debt!"
+  },
+  {
+    "id": 10,
+    "level": "beginner",
+    "question": "Term Insurance mein kya milta hai?",
+    "options": ["Investment returns", "Only life cover (lump sum on death)", "Monthly income", "Tax refund"],
+    "correct": 1,
+    "explanation": "Term insurance provides pure life cover — your family gets a large lump sum if you pass away during the term."
+  },
+  {
+    "id": 11,
+    "level": "intermediate",
+    "question": "Compound interest aur simple interest mein kya farq hai?",
+    "options": [
+      "Koi farq nahi",
+      "Compound interest earns interest on interest too",
+      "Simple interest zyada hota hai",
+      "Compound interest only for fixed deposits"
+    ],
+    "correct": 1,
+    "explanation": "Compound interest earns returns on your principal AND accumulated interest, causing exponential growth over time."
+  },
+  {
+    "id": 12,
+    "level": "intermediate",
+    "question": "₹10,000 ko 10% annual compound interest pe 10 saal mein approximately kitna milega?",
+    "options": ["₹15,000", "₹20,000", "₹25,937", "₹30,000"],
+    "correct": 2,
+    "explanation": "₹10,000 × (1.10)^10 ≈ ₹25,937. This is the magic of compounding!"
+  },
+  {
+    "id": 13,
+    "level": "intermediate",
+    "question": "Salary ₹30,000 hai. 50-30-20 rule ke hisaab se savings kitni honi chahiye?",
+    "options": ["₹3,000", "₹6,000", "₹9,000", "₹15,000"],
+    "correct": 1,
+    "explanation": "20% of ₹30,000 = ₹6,000 should go towards savings and investments each month."
+  },
+  {
+    "id": 14,
+    "level": "intermediate",
+    "question": "Market crash hone par SIP investor ko kya karna chahiye?",
+    "options": [
+      "Turant sab sell kar do",
+      "SIP band kar do",
+      "Continue karo — crash mein zyada units milte hain",
+      "Sirf FD mein switch karo"
+    ],
+    "correct": 2,
+    "explanation": "During crashes, SIP buys more units at lower prices — this is called rupee cost averaging and benefits long-term investors!"
+  },
+  {
+    "id": 15,
+    "level": "intermediate",
+    "question": "Credit score 750+ hone ka kya faayda hai?",
+    "options": [
+      "Higher interest rates on loans",
+      "Loan rejection chances increase",
+      "Lower interest rates and easier loan approval",
+      "No benefit at all"
+    ],
+    "correct": 2,
+    "explanation": "A CIBIL score of 750+ gives you access to better interest rates and quicker loan approvals from banks."
+  },
+  {
+    "id": 16,
+    "level": "intermediate",
+    "question": "Lifestyle inflation kya hoti hai?",
+    "options": [
+      "General price rise",
+      "Expenses automatically badhna jab income badhti hai",
+      "Credit card charges",
+      "Stock market volatility"
+    ],
+    "correct": 1,
+    "explanation": "Lifestyle inflation is when your spending grows with every salary hike, preventing you from building wealth."
+  },
+  {
+    "id": 17,
+    "level": "intermediate",
+    "question": "Home loan mein down payment zyada dene ka kya faayda hai?",
+    "options": [
+      "Koi faayda nahi",
+      "Loan amount aur EMI dono kam hoti hai",
+      "Interest rate badhta hai",
+      "Loan tenure badhta hai"
+    ],
+    "correct": 1,
+    "explanation": "Higher down payment means smaller loan amount, resulting in lower EMI and less total interest paid over the loan tenure."
+  },
+  {
+    "id": 18,
+    "level": "intermediate",
+    "question": "PPF account ki maturity period kitni hai?",
+    "options": ["5 years", "10 years", "15 years", "20 years"],
+    "correct": 2,
+    "explanation": "PPF has a 15-year lock-in period, after which the entire corpus including interest is tax-free."
+  },
+  {
+    "id": 19,
+    "level": "intermediate",
+    "question": "Diversification ka matlab kya hai investments mein?",
+    "options": [
+      "Saara paisa ek jagah lagao",
+      "Paisa different assets mein spread karo",
+      "Only stocks mein invest karo",
+      "Monthly invest karo"
+    ],
+    "correct": 1,
+    "explanation": "Diversification means spreading money across different asset types (stocks, bonds, gold, FD) to reduce risk."
+  },
+  {
+    "id": 20,
+    "level": "intermediate",
+    "question": "Term insurance aur endowment plan mein kya farq hai?",
+    "options": [
+      "Koi farq nahi",
+      "Term is pure life cover, endowment combines insurance + investment",
+      "Endowment is cheaper",
+      "Term gives maturity benefits"
+    ],
+    "correct": 1,
+    "explanation": "Term insurance is pure protection (no maturity benefit). Endowment plans combine insurance with savings — but are more expensive."
+  },
+  {
+    "id": 21,
+    "level": "pro",
+    "question": "Rule of 72 kya bata ta hai?",
+    "options": [
+      "Retirement age calculation",
+      "Approximate time to double money: 72 ÷ interest rate",
+      "Tax bracket calculation",
+      "Inflation adjustment formula"
+    ],
+    "correct": 1,
+    "explanation": "Rule of 72: divide 72 by annual return rate to get approximate years to double money. At 12%, money doubles in ~6 years!"
+  },
+  {
+    "id": 22,
+    "level": "pro",
+    "question": "₹5,000/month SIP at 12% annual return for 20 years mein approximately kitna milega?",
+    "options": ["₹30 Lakhs", "₹45 Lakhs", "₹49.96 Lakhs", "₹1 Crore"],
+    "correct": 2,
+    "explanation": "₹5,000/month SIP at 12% for 20 years = approximately ₹49.96 Lakhs. Total investment was only ₹12 Lakhs!"
+  },
+  {
+    "id": 23,
+    "level": "pro",
+    "question": "Real rate of return kaise calculate karte hain?",
+    "options": [
+      "Nominal rate + Inflation",
+      "Nominal rate − Inflation rate",
+      "Nominal rate × Inflation",
+      "Nominal rate ÷ Inflation"
+    ],
+    "correct": 1,
+    "explanation": "Real return = Nominal return − Inflation. If FD gives 6% but inflation is 5%, real return is only 1%."
+  },
+  {
+    "id": 24,
+    "level": "pro",
+    "question": "NPS (National Pension System) mein equity allocation maximum kitna ho sakta hai?",
+    "options": ["25%", "50%", "75%", "100%"],
+    "correct": 2,
+    "explanation": "In NPS Active Choice, equity allocation can go up to 75% (for those under 50). This maximizes long-term growth potential."
+  },
+  {
+    "id": 25,
+    "level": "pro",
+    "question": "Expense ratio kya hota hai mutual funds mein?",
+    "options": [
+      "Your monthly expenses",
+      "Annual fee charged by fund house to manage your money",
+      "Tax on returns",
+      "Exit load"
+    ],
+    "correct": 1,
+    "explanation": "Expense ratio is the annual fee (as % of AUM) charged by AMCs to manage the fund. Lower expense ratio = more returns for you."
+  },
+  {
+    "id": 26,
+    "level": "pro",
+    "question": "Debt-to-Income (DTI) ratio 40% se zyada hone ka kya matlab hai?",
+    "options": [
+      "You are financially very healthy",
+      "You are over-leveraged — loan burden is very high",
+      "Your savings are high",
+      "Your credit score will improve"
+    ],
+    "correct": 1,
+    "explanation": "DTI > 40% means over 40% of income goes to debt repayments — this is financially dangerous and limits future borrowing."
+  },
+  {
+    "id": 27,
+    "level": "pro",
+    "question": "ELSS (Equity Linked Savings Scheme) ka lock-in period kitna hai?",
+    "options": ["1 year", "3 years", "5 years", "15 years"],
+    "correct": 1,
+    "explanation": "ELSS has the shortest lock-in of 3 years among 80C tax-saving instruments, plus potential for market-linked returns."
+  },
+  {
+    "id": 28,
+    "level": "pro",
+    "question": "Power of compounding maximize karne ke liye sabse important factor kya hai?",
+    "options": ["High interest rate only", "Large principal amount", "Time — start investing early", "Frequent withdrawals"],
+    "correct": 2,
+    "explanation": "Time is the most powerful factor in compounding. Starting at 25 vs 35 can mean the difference of crores at retirement!"
+  },
+  {
+    "id": 29,
+    "level": "pro",
+    "question": "Index fund aur actively managed fund mein kya main farq hai?",
+    "options": [
+      "Index funds are riskier",
+      "Index funds track a market index with low expense ratio; active funds try to beat the market",
+      "Active funds always give better returns",
+      "Index funds are only for large investors"
+    ],
+    "correct": 1,
+    "explanation": "Index funds passively mirror an index (like Nifty 50) with very low costs. Most active funds fail to consistently beat their benchmark."
+  },
+  {
+    "id": 30,
+    "level": "pro",
+    "question": "Rebalancing portfolio kya hota hai?",
+    "options": [
+      "Saare investments sell karna",
+      "Restoring original asset allocation by buying/selling to maintain target percentages",
+      "Only buying new stocks",
+      "Changing your bank account"
+    ],
+    "correct": 1,
+    "explanation": "Portfolio rebalancing means periodically adjusting your holdings back to target allocation (e.g., 60% equity, 40% debt) as markets move."
+  }
+]
